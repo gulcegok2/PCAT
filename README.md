@@ -1,4 +1,3 @@
-```markdown
 # PCAT - Photo Catalog Project
 
 PCAT is a dynamic photo catalog web application built with Node.js, Express.js, and MongoDB. It allows users to upload, display, edit, and delete photos with their descriptions.
@@ -32,7 +31,7 @@ PCAT is a dynamic photo catalog web application built with Node.js, Express.js, 
 
 ## Project Structure
 
-```
+
 PCAT/
 │
 ├── controllers/
@@ -60,7 +59,7 @@ PCAT/
 │   └── js/
 │
 └── app.js
-```
+
 
 ## API Endpoints
 
