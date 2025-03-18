@@ -28,10 +28,22 @@ PCAT is a dynamic photo catalog web application built with Node.js, Express.js, 
   - File Upload handling
   - RESTful API architecture
   - MVC pattern
+ 
+
+## API Endpoints
+
+- `GET /` - Home page with photo gallery
+- `GET /photos/:id` - View single photo
+- `POST /photos` - Add new photo
+- `PUT /photos/:id` - Update photo
+- `DELETE /photos/:id` - Delete photo
+- `GET /about` - About page
+- `GET /add` - Add photo page
+
 
 ## Project Structure
 
-
+```
 PCAT/
 │
 ├── controllers/
@@ -60,13 +72,3 @@ PCAT/
 │
 └── app.js
 
-
-## API Endpoints
-
-- `GET /` - Home page with photo gallery
-- `GET /photos/:id` - View single photo
-- `POST /photos` - Add new photo
-- `PUT /photos/:id` - Update photo
-- `DELETE /photos/:id` - Delete photo
-- `GET /about` - About page
-- `GET /add` - Add photo page
